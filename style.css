@@ -1,14 +1,13 @@
 body {
     font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .header {
-    color: white;
     background-color: #1f2937;
     padding: 8px 4em;
     display: flex;
@@ -30,4 +29,83 @@ a {
     display: flex;
     gap: 24px;
     align-items: center;
+}
+
+.hero-section {
+    background-color: #1f2937;
+    padding: 0 4em;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+
+}
+
+#hero-image {
+    width: 300px;
+    height: auto;
+    align-self: center;
+    
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.paragraph {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.learn-more {
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    align-self: flex-start
+}
+
+.resources-section{
+    padding: 0 4em;
+    display: flex;
+    flex-grow: 1;
+}
+
+.quote-section {
+    padding: 0 4em;
+    display: flex;
+    flex-grow: 1;
+}
+
+.action-section {
+    padding: 0 4em;
+    display: flex;
+    flex-grow: 1;
+}
+
+.bluebar
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
